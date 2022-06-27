@@ -1,0 +1,71 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("laptopbg.jpeg");
+  
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile{
+  text-align: right;
+}
+.aboutme{
+  display:block;
+}
+.content{
+  font-size: 20px;
+  
+}
+.container{
+  position: relative;
+  bottom: 65%;
+  right: 20%;
+  text-align: center;
+  
+}
+.center{
+  text-align: center;
+  border: 3px solid black;
+  z-index: 2;
+  width: 50%;
+  height: 20%;
+  left: 50%;
+
+}
+
+.fa {
+  padding: 25px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+  margin: 3px 5px;
+  cursor: pointer;
+}
+.fa-linkedin{
+  background: #007bb5;
+  color: white;
+}
+.fa-github{
+  background: black;
+  color:#f1f1f1
+}
+.fa:hover{
+  opacity: 0.6;
+  transition: 1s;
+  
+}

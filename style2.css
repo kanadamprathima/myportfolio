@@ -1,0 +1,62 @@
+body, html {
+  height: 70%;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 50%;
+  height: 50%;
+  background-color: grey;
+  border-radius: 25px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bg-image {
+  /* The image used */
+  background-image: url("laptopbg.jpeg");
+  
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fa {
+  padding: 25px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+  margin: 3px 5px;
+  cursor: pointer;
+}
+.fa-linkedin{
+  background: #007bb5;
+  color: white;
+}
+.fa-github{
+  background: black;
+  color:#f1f1f1
+}
+.fa:hover{
+  opacity: 0.6;
+  transition: 1s;
+  
+}
